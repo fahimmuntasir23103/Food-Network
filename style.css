@@ -69,7 +69,9 @@ h1, p{
     width: 400px;
 }
 
-
+.recipie-section{
+    margin-top: 55px;
+}
 .header-text-part{
     text-align: center;
     width: 55%;
