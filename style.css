@@ -2,7 +2,11 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 
+}
+p{
+    line-height: 1.5;
 }
 h1, p{
     color: #716e6e;
@@ -48,7 +52,6 @@ h1, p{
 
 
 #about-section{
-    /* background-color: #ffebeb; */
     display: flex;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
@@ -64,4 +67,82 @@ h1, p{
 }
 .right-half-text{
     width: 400px;
+}
+
+
+.header-text-part{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+}
+.sub-container{
+    width: 30%;
+    margin-right: 44px;
+    background-color: white;
+    border-radius: 7%;
+    line-height: 2;
+    box-shadow: 0px 0px 39px -22px;
+}
+.mini-container{
+    margin-right: 0px;
+}
+.image-container{
+    width: 89%;
+    margin: 14px auto;
+}
+.image-container img{
+    width: 100%;
+}
+.text-container{
+    width: 89%;
+    margin: 14px auto;
+
+}
+.text-container h2{
+    font-weight: 900;
+}
+.text-container p{
+    font-size: 14px;
+}
+
+.follower-section{
+    margin: 60px 0px;
+}
+.follower-container{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 39px -22px;
+}
+.followers{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.followers h1{
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 5px;
+    padding-top: 25px;
+}
+.followers span{
+    font-size: 11px;
+    display: block;
+    padding-bottom: 45px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer h3{
+    padding: 35px 0px 10px;
+    color: #505050;
+}
+.footer-text{
+    color: #cececed1;
+    display: block;
+    padding-bottom: 90px;
+    font-size: 11px;
 }
